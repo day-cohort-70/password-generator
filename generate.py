@@ -36,18 +36,18 @@ def evaluate_password_strength(password):
     Returns:
         tuple: Contains the strength score and strength category of the password
     """
-   # Calculate the length score by multiplying the password length by 4
+    # Calculate the length score by multiplying the password length by 4
 
-   # Calculate the character type score by checking the presence of lowercase, uppercase, digits, and special characters
-   # Add 10 to the character type score for each type present in the password
+    # Calculate the character type score by checking the presence of lowercase, uppercase, digits, and special characters
+    # Add 10 to the character type score for each type present in the password
 
-   # Calculate the overall strength score by adding the length score and character type score
+    # Calculate the overall strength score by adding the length score and character type score
 
-   # Determine the password strength category based on the strength score
-   # Less than 50 is Weak, 50-79 is Moderate, 80-99 is Strong, 100 or more is Very Strong
+    # Determine the password strength category based on the strength score
+    # Less than 50 is Weak, 50-79 is Moderate, 80-99 is Strong, 100 or more is Very Strong
 
-   # Return a tuple containing the strength score and strength category
-   return None
+    # Return a tuple containing the strength score and strength category
+    return None
 
 # Prompt the user for the desired password length
 password_length = int(input("Enter the desired password length: "))
